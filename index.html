@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+<script src="/assets/jquery.js"></script>
+<link href='https://fonts.googleapis.com/css?family=Rubik+Broken+Fax' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<main>
+<h1>Abdulrahman's Restaurant</h1>
+<h2>The No 1 Indian Cusinie in the Middle East</h2>
+<div class="first">
+  <p>Chicken Biryani <span class="price">$15</span><br />
+  <small>Cooked rice with masala, chili, chutney sauces, and a chunk of delicious tender chicken pieces, all with that spicy taste </small></p>
+</div>
+
+<div class="second">
+  <p>Mutton Masala <span class="price">$24</span><br />
+  <small>500gms boned Mutton, 1 tsp Salt, 1/4 tsp Turmeric Powder, 2 tsp Red Chili Powder, 100 gms. Curd (plain yogurt, whisked).</small></p>
+</div>
+  
+<div class="dessert">
+  <p>Gulab Jamuns <span class="price">$10</span><br />
+  <small>2 cups (400g) sugar, 1 cup (240ml) water, 3-4 cardamoms crushed, 15-20 saffrons strands, 1 tablespoon lemon juice, 1 tablespoon rose water.</small></p>
+</div>
+
+<div class="drinks">
+  <p>Beverages <span class="price">$5</span><br />
+  <small> Pepsi, Mirinda, 7Up, Cola, Sprite, Fanta, Iced Tea Lipton, Bcola, Dr Pepper, Fresh Juices, Coffee Hot/ Iced, Water</small></p>
+</div>
+</main>
+
+<script>
+  $('div').on('click', function() {
+      $(this).toggleClass('show-description');
+  });
+</script>
+
+</body>
